@@ -1,0 +1,23 @@
+name: Validacion de Integracion Continua
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copiar codigo del repositorio
+      uses: actions/checkout@v4
+
+    - name: Validar archivo index.html
+      run: |
+        if [ -f index.html ]; then
+          echo "¡Exito! El archivo index.html existe."
+        else
+          echo "Error: index.html no encontrado."
+          exit 1
+        fi
