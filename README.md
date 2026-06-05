@@ -1,22 +1,26 @@
-# practica_versiones_control
-# Gestión de Repositorios Colaborativos, Protección de Ramas y Automatización CI/CD en GitHub
+#  Gestión de Repositorios Colaborativos, Protección de Ramas y Automatización CI/CD en GitHub
 
 ---
 
-##  Equipo y Roles
-* **[Tu Nombre y Apellido]** — *Administrador del Repositorio* (Control de accesos y aprobación de Pull Requests).
-* **[Nombre de tu Compañero]** — *Desarrollador Principal* (Desarrollo de módulos, ramas y simulación de conflictos).
+##  Equipo y Dinámica de Roles (Flujo Cruzado)
+
+Para cumplir con los objetivos de la práctica, implementamos un esquema de **roles cruzados e intercambiables**, permitiendo que ambos experimentáramos tanto la administración de la seguridad como el flujo de desarrollo:
+
+* **Steven Ninasunta** * `Repository Admin` ➔ Gestión de políticas de seguridad, restricción de la rama `main` y auditoría de código.
+  * `Core Developer` ➔ Creación de ramas secundarias, maquetación y resolución de conflictos de integración.
+* **Brayan Viracocha** * `Core Developer` ➔ Desarrollo de módulos base, generación de commits y simulación de colisiones de código.
+  * `Repository Admin` ➔ Revisión cruzada en *Submit review* y aprobación formal de *Pull Requests*.
 
 ---
 
-##  ¿Qué se implementó en este proyecto?
+##  Hitos Implementados en el Proyecto
 
-* **Estructura Base:** Inicialización del entorno a través de este archivo `README.md`.
-* **Seguridad:** Flujo colaborativo con políticas de protección en la rama `main` mediante revisiones cruzadas (*Submit review*).
-* **Automatización:** Configuración de un pipeline de Integración Continua con GitHub Actions (`ci.yml`).
-* **Control de Errores:** Detección en tiempo real y corrección exitosa de un fallo crítico mediante el commit definitivo `2009d0b`.
+* **Estructura Base:** Inicialización del entorno colaborativo a través de este archivo `README.md`.
+* **Seguridad y Gobernanza:** Configuración de reglas estrictas para blindar la rama `main`, requiriendo aprobaciones mandatorias antes de cualquier *merge*.
+* **Automatización (CI/CD):** Despliegue de un pipeline automatizado con GitHub Actions mediante el motor `ci.yml`.
+* **Gestión de Crisis:** Detección en tiempo real de un fallo crítico de integración continua y aplicación exitosa del parche técnico definitivo mediante el commit `2009d0b`.
 
 ---
 
 ## Entrega Oficial
-> 📄 **[Informe_Final_Laboratorio.pdf](./Informe_Final_Laboratorio.pdf)** > *De acuerdo con la guía de evaluación, el documento técnico en PDF con la investigación y la demostración práctica se encuentra adjunto en la raíz de este repositorio público.*
+> 📄 **[Ver Informe Técnico en PDF](./Informe_Final_Laboratorio.pdf)** > 
