@@ -8,7 +8,7 @@
 
 ---
 
-## 💻 Evidencia Obligatoria: Actividades Realizadas por Ambos
+##  Evidencia Obligatoria: Actividades Realizadas por Ambos
 
 Para dar cumplimiento estricto a la guía de evaluación, **ambos integrantes ejecutamos la totalidad de las actividades requeridas** intercambiando roles. No se dividieron las tareas; tanto Steven como Brayan realizamos y dejamos evidencia de las siguientes acciones dentro del repositorio:
 
@@ -21,7 +21,7 @@ Para dar cumplimiento estricto a la guía de evaluación, **ambos integrantes ej
 7. **Realizar un Merge:** Fusión de las ramas autorizadas hacia la rama principal `main`.
 8. **Resolver un conflicto de integración:** Solución manual en equipo ante las colisiones de código generadas.
 
-** Como parte del flujo automatizado con el archivo `ci.yml`, se detectó un fallo crítico de integración que corregimos con éxito mediante el commit final `2009d0b`.
+ Como parte del flujo automatizado con el archivo `ci.yml`, se detectó un fallo crítico de integración que corregimos con éxito mediante el commit final `2009d0b`.
 
 ---
 
